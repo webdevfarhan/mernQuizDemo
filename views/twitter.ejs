@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="twitter:card" content="photo" />
+    <meta name="twitter:title" content="<%=title%>" />
+    <meta name="twitter:description" content="Wow! It's Awesome!" />
+    <meta name="twitter:image:src" content="<%= resultImageUrl %>" />
+    <meta name="twitter:image:width" content="600" />
+    <meta name="twitter:image:height" content="350" />
+  </head>
+
+  <body>
+    <script type="text/javascript">
+      top.location.href = '<%=domain%>/result/<%=appname%>/<%=resultImage%>';
+    </script>
+  </body>
+</html>

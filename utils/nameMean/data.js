@@ -1,0 +1,30 @@
+const nameMeanData = {
+  A: ['Awesome', 'Adorable', 'Amazing', 'Awful'],
+  B: ['Brave', 'Brainy', 'Best', 'Busy'],
+  C: ['Cheerful', 'Clean', 'Charming', 'Crazy'],
+  D: ['Dangerous', 'Delightful', 'Determine', 'Distinct'],
+  E: ['Elite', 'Eligant', 'Evil', 'Excited'],
+  F: ['Faithful', 'Famous', 'Fancy', 'Friendly'],
+  G: ['Gentle', 'Gifted', 'Glorious', 'Gleaming'],
+  H: ['Hungry', 'Hilarious', 'Happy', 'Helping'],
+  I: ['Interesting', 'Innocent', 'Important', 'Intelligent'],
+  J: ['Joyous', 'Jolly', 'Jumbled', 'Juicy'],
+  K: ['Kind', 'Keen', 'Known', 'Kindheart'],
+  L: ['Lucky', 'Lovely', 'Lethal', 'Likeable'],
+  M: ['Mad', 'Magical', 'Majestic', 'Mature'],
+  N: ['Nerd', 'Nice', 'Nutty', 'Naughty'],
+  O: ['Odd', 'Open', 'Outrageous', 'Obedient'],
+  P: ['Pleasant', 'Peaceful', 'Perfect', 'Pricky'],
+  Q: ['Quick', 'Quiet', 'Questionable', 'Quaint'],
+  R: ['Rare', 'Rebel', 'Rich', 'Romantic'],
+  S: ['Shiny', 'Silly', 'Shy', 'Sleepy'],
+  T: ['Typical', 'Trustful', 'Tricky', 'Terrific'],
+  U: ['Unusual', 'Unused', 'Ultimate', 'Unique'],
+  V: ['Vague', 'Vast', 'Vulgar', 'Volatile'],
+  W: ['Wacky', 'Wise', 'Wicked', 'Worthful'],
+  X: ['X-rated', 'Xerox', 'X-men', 'X-treme'],
+  Y: ['Young', 'Youthful', 'Yummy', 'Yielding'],
+  Z: ['Zealous', 'Zany', 'Zippy', 'Zeus']
+};
+
+module.exports = nameMeanData;

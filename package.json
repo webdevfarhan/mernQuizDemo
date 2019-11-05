@@ -1,0 +1,39 @@
+{
+  "name": "mernquiz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server",
+    "server": "set MODE=localhost&&nodemon server",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webdevfarhan/mernQuiz.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webdevfarhan/mernQuiz/issues"
+  },
+  "homepage": "https://github.com/webdevfarhan/mernQuiz#readme",
+  "devDependencies": {
+    "concurrently": "^4.1.1",
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "@sentry/node": "^5.6.1",
+    "config": "^3.1.0",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "express-cors": "0.0.3",
+    "express-validator": "^6.1.1",
+    "jimp": "^0.6.4",
+    "multer": "^1.4.1",
+    "path": "^0.12.7",
+    "unique-random-array": "^2.0.0"
+  }
+}
