@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const PORT = 5000;
+const PORT = 5001;
 const cors = require('express-cors');
 const path = require('path');
 const apps = require('./config/apps');
@@ -15,7 +15,7 @@ app.use('/views', express.static('views'));
 app.use(express.static('client/build'));
 app.use(
   cors({
-    allowedOrigins: ['http://localhost:3000', 'http://localhost:5000'],
+    allowedOrigins: ['http://localhost:3000', 'http://localhost:5001'],
     headers: ['xauth', 'content-type']
   })
 );
